@@ -11,5 +11,6 @@
 	<Item Name="alignLeft.vi" Type="VI" URL="../alignLeft.vi"/>
 	<Item Name="alignRight.vi" Type="VI" URL="../alignRight.vi"/>
 	<Item Name="alignTop.vi" Type="VI" URL="../alignTop.vi"/>
-	<Item Name="getMasterRect.vi" Type="VI" URL="../getMasterRect.vi"/>
+	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
+	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
 </Library>
