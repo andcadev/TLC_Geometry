@@ -13,4 +13,7 @@
 	<Item Name="alignTop.vi" Type="VI" URL="../alignTop.vi"/>
 	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
+	<Item Name="placeLeftOf.vi" Type="VI" URL="../placeLeftOf.vi"/>
+	<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_end.vi"/>
+	<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_start.vi"/>
 </Library>

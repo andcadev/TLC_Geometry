@@ -15,6 +15,7 @@
 		<Item Name="Experiments-fragments" Type="Folder"/>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="AlignmentTests.lvclass" Type="LVClass" URL="../../tests/AlignmentTests/AlignmentTests.lvclass"/>
+			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 		</Item>
 		<Item Name="TLC_Geometry.lvlib" Type="Library" URL="../TLC_Geometry.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -29,7 +30,6 @@
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 			</Item>
-			<Item Name="getMasterRect.vi" Type="VI" URL="../getMasterRect.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
