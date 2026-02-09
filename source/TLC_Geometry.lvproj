@@ -15,6 +15,7 @@
 		<Item Name="Experiments-fragments" Type="Folder"/>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="AlignmentTests.lvclass" Type="LVClass" URL="../../tests/AlignmentTests/AlignmentTests.lvclass"/>
+			<Item Name="RelativeAlignmentTests.lvclass" Type="LVClass" URL="../../tests/RelativeAlignmentTests/RelativeAlignmentTests.lvclass"/>
 			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 		</Item>
 		<Item Name="TLC_Geometry.lvlib" Type="Library" URL="../TLC_Geometry.lvlib"/>

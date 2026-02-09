@@ -9,11 +9,16 @@
 </Property>
 	<Item Name="alignBottom.vi" Type="VI" URL="../alignBottom.vi"/>
 	<Item Name="alignLeft.vi" Type="VI" URL="../alignLeft.vi"/>
+	<Item Name="alignLeftWith.vi" Type="VI" URL="../alignLeftWith.vi"/>
 	<Item Name="alignRight.vi" Type="VI" URL="../alignRight.vi"/>
+	<Item Name="alignRightWith.vi" Type="VI" URL="../alignRightWith.vi"/>
 	<Item Name="alignTop.vi" Type="VI" URL="../alignTop.vi"/>
 	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
+	<Item Name="placeAbove.vi" Type="VI" URL="../placeAbove.vi"/>
+	<Item Name="placeBottom.vi" Type="VI" URL="../placeBottom.vi"/>
 	<Item Name="placeLeftOf.vi" Type="VI" URL="../placeLeftOf.vi"/>
+	<Item Name="placeRightOf.vi" Type="VI" URL="../placeRightOf.vi"/>
 	<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_end.vi"/>
 	<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_start.vi"/>
 </Library>
