@@ -71,6 +71,8 @@ See the `LICENSE` file for details.
 
 ## Author
 Andrea Cadei (andcaddev)
+https://www.linkedin.com/in/andrea-cadei/
 
 **TheLabVIEWCorner**  
 https://thelabviewcorner.com
+
