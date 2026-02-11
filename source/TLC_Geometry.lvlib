@@ -8,11 +8,15 @@
 
 </Property>
 	<Item Name="alignBottom.vi" Type="VI" URL="../alignBottom.vi"/>
+	<Item Name="alignBottomWith.vi" Type="VI" URL="../alignBottomWith.vi"/>
+	<Item Name="alignHorizontalCenters.vi" Type="VI" URL="../alignHorizontalCenters.vi"/>
 	<Item Name="alignLeft.vi" Type="VI" URL="../alignLeft.vi"/>
 	<Item Name="alignLeftWith.vi" Type="VI" URL="../alignLeftWith.vi"/>
 	<Item Name="alignRight.vi" Type="VI" URL="../alignRight.vi"/>
 	<Item Name="alignRightWith.vi" Type="VI" URL="../alignRightWith.vi"/>
 	<Item Name="alignTop.vi" Type="VI" URL="../alignTop.vi"/>
+	<Item Name="alignTopWith.vi" Type="VI" URL="../alignTopWith.vi"/>
+	<Item Name="alignVerticalCenters.vi" Type="VI" URL="../alignVerticalCenters.vi"/>
 	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
 	<Item Name="placeAbove.vi" Type="VI" URL="../placeAbove.vi"/>
