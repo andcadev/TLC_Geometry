@@ -19,8 +19,10 @@
 	<Item Name="alignTopWith.vi" Type="VI" URL="../alignTopWith.vi"/>
 	<Item Name="alignVerticalCenters.vi" Type="VI" URL="../alignVerticalCenters.vi"/>
 	<Item Name="alignVerticalCentersWith.vi" Type="VI" URL="../alignVerticalCentersWith.vi"/>
+	<Item Name="direction.ctl" Type="VI" URL="../direction.ctl"/>
 	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
+	<Item Name="horizontalAlignment.ctl" Type="VI" URL="../horizontalAlignment.ctl"/>
 	<Item Name="placeAbove.vi" Type="VI" URL="../placeAbove.vi"/>
 	<Item Name="placeBottom.vi" Type="VI" URL="../placeBottom.vi"/>
 	<Item Name="placeLeftOf.vi" Type="VI" URL="../placeLeftOf.vi"/>
@@ -28,4 +30,7 @@
 	<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_end.vi"/>
 	<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_start.vi"/>
 	<Item Name="stackHorizontally.vi" Type="VI" URL="../stackHorizontally.vi"/>
+	<Item Name="stackInGrid.vi" Type="VI" URL="../stackInGrid.vi"/>
+	<Item Name="stackVertically.vi" Type="VI" URL="../stackVertically.vi"/>
+	<Item Name="verticalAlignment.ctl" Type="VI" URL="../verticalAlignment.ctl"/>
 </Library>
