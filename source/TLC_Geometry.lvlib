@@ -13,6 +13,7 @@
 	<Item Name="alignHorizontalCentersWith.vi" Type="VI" URL="../alignHorizontalCentersWith.vi"/>
 	<Item Name="alignLeft.vi" Type="VI" URL="../alignLeft.vi"/>
 	<Item Name="alignLeftWith.vi" Type="VI" URL="../alignLeftWith.vi"/>
+	<Item Name="alignment.ctl" Type="VI" URL="../alignment.ctl"/>
 	<Item Name="alignRight.vi" Type="VI" URL="../alignRight.vi"/>
 	<Item Name="alignRightWith.vi" Type="VI" URL="../alignRightWith.vi"/>
 	<Item Name="alignTop.vi" Type="VI" URL="../alignTop.vi"/>
@@ -22,7 +23,6 @@
 	<Item Name="direction.ctl" Type="VI" URL="../direction.ctl"/>
 	<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 	<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
-	<Item Name="horizontalAlignment.ctl" Type="VI" URL="../horizontalAlignment.ctl"/>
 	<Item Name="placeAbove.vi" Type="VI" URL="../placeAbove.vi"/>
 	<Item Name="placeBottom.vi" Type="VI" URL="../placeBottom.vi"/>
 	<Item Name="placeLeftOf.vi" Type="VI" URL="../placeLeftOf.vi"/>
@@ -32,5 +32,4 @@
 	<Item Name="stackHorizontally.vi" Type="VI" URL="../stackHorizontally.vi"/>
 	<Item Name="stackInGrid.vi" Type="VI" URL="../stackInGrid.vi"/>
 	<Item Name="stackVertically.vi" Type="VI" URL="../stackVertically.vi"/>
-	<Item Name="verticalAlignment.ctl" Type="VI" URL="../verticalAlignment.ctl"/>
 </Library>
