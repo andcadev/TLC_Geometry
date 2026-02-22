@@ -48,15 +48,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074266642</Property>
 	</Item>
-	<Item Name="test_stackInGrid.vi" Type="VI" URL="../test_stackInGrid.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%#!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!5%F.U97.L6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!,%"Q!"Y!!"135X2B9WN5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"!!%!!1!"A-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!(!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1074004224</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
-	</Item>
 	<Item Name="test_stackVertically.vi" Type="VI" URL="../test_stackVertically.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%#!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!5%F.U97.L6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!$62F=X1A1W&amp;T:3"0&gt;81!,%"Q!"Y!!"135X2B9WN5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;#"$98.F)%FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"!!%!!1!"A-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!(!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

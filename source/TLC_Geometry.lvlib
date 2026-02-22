@@ -28,6 +28,7 @@
 		<Item Name="direction.ctl" Type="VI" URL="../direction.ctl"/>
 	</Item>
 	<Item Name="Misc" Type="Folder">
+		<Item Name="getAggregateBounds.vi" Type="VI" URL="../getAggregateBounds.vi"/>
 		<Item Name="getBoundsRect.vi" Type="VI" URL="../getBoundsRect.vi"/>
 		<Item Name="getCenter.vi" Type="VI" URL="../getCenter.vi"/>
 		<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../processUseControlBodyOnlyFlag_end.vi"/>
