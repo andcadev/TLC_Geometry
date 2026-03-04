@@ -42,17 +42,21 @@
 			<Item Name="getCenter.vi" Type="VI" URL="../Misc/getCenter.vi"/>
 			<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_end.vi"/>
 			<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_start.vi"/>
+			<Item Name="setCaption&amp;LabelVisibility.vi" Type="VI" URL="../Misc/setCaption&amp;LabelVisibility.vi"/>
 		</Item>
 		<Item Name="Ctrls" Type="Folder">
 			<Item Name="alignment.ctl" Type="VI" URL="../Ctrls/alignment.ctl"/>
 		</Item>
-		<Item Name="Examples" Type="Folder"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="example_batchAlignment.vi" Type="VI" URL="../Examples/example_batchAlignment.vi"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="AlignmentTests.lvclass" Type="LVClass" URL="../../tests/AlignmentTests/AlignmentTests.lvclass"/>
 			<Item Name="RelativeAlignmentTests.lvclass" Type="LVClass" URL="../../tests/RelativeAlignmentTests/RelativeAlignmentTests.lvclass"/>
 			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 			<Item Name="StackTests.lvclass" Type="LVClass" URL="../../tests/StackTests/StackTests.lvclass"/>
 		</Item>
+		<Item Name="hideCaption&amp;Label.vi" Type="VI" URL="../Misc/hideCaption&amp;Label.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -64,6 +68,11 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
