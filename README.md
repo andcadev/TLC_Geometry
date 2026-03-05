@@ -1,12 +1,9 @@
 # TLC_Geometry
 
-**TLC_Geometry** is a small LabVIEW toolkit providing runtime geometry and spatial layout helpers
-for UI controls and indicators. It operates exclusively at runtime by manipulating UI controls through standard
-LabVIEW control references and property nodes. It does not perform any edit-time modifications
-to VIs, block diagrams, or front panels.
+**TLC_Geometry** is a small LabVIEW toolkit providing runtime geometry and spatial layout helpers for UI controls and indicators. It operates exclusively at runtime by manipulating UI controls through standard
+LabVIEW control references and property nodes. It does not perform any edit-time modifications to VIs, block diagrams, or front panels.
 
-It is designed to simplify common tasks such as positioning, aligning, centering, and validating
-spatial relationships between front panel objects at runtime.
+It is designed to simplify common tasks such as positioning, aligning, centering front panel objects at runtime.
 
 ## Motivation
 
@@ -70,9 +67,10 @@ This project is licensed under the MIT License.
 See the `LICENSE` file for details.
 
 ## Author
-Andrea Cadei (andcaddev)
-https://www.linkedin.com/in/andrea-cadei/
 
-**TheLabVIEWCorner**  
-https://thelabviewcorner.com
+**Andrea Cadei**  
+Creator of *The LabVIEW Corner*
 
+GitHub: https://github.com/andcadev  
+Website: https://thelabviewcorner.com  
+LinkedIn: https://www.linkedin.com/in/andrea-cadei/
