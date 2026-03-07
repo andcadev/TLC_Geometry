@@ -43,12 +43,16 @@
 			<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_end.vi"/>
 			<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_start.vi"/>
 			<Item Name="setCaption&amp;LabelVisibility.vi" Type="VI" URL="../Misc/setCaption&amp;LabelVisibility.vi"/>
+			<Item Name="hideCaption&amp;Label.vi" Type="VI" URL="../Misc/hideCaption&amp;Label.vi"/>
 		</Item>
 		<Item Name="Ctrls" Type="Folder">
 			<Item Name="alignment.ctl" Type="VI" URL="../Ctrls/alignment.ctl"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="example_relativeAlignment.vi" Type="VI" URL="../Examples/example_relativeAlignment.vi"/>
 			<Item Name="example_batchAlignment.vi" Type="VI" URL="../Examples/example_batchAlignment.vi"/>
+			<Item Name="example_relativePlacement.vi" Type="VI" URL="../Examples/example_relativePlacement.vi"/>
+			<Item Name="example_stack.vi" Type="VI" URL="../Examples/example_stack.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="AlignmentTests.lvclass" Type="LVClass" URL="../../tests/AlignmentTests/AlignmentTests.lvclass"/>
@@ -56,7 +60,6 @@
 			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 			<Item Name="StackTests.lvclass" Type="LVClass" URL="../../tests/StackTests/StackTests.lvclass"/>
 		</Item>
-		<Item Name="hideCaption&amp;Label.vi" Type="VI" URL="../Misc/hideCaption&amp;Label.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
