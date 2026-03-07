@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-03-06 21:03:10" Creator="andre" Comments="" ID="c61acd83957b6e7091b539d8843d9f2c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-03-07 21:12:59" Creator="andre" Comments="" ID="447b01cce71f648f433b060bbbcaf3e9">
   <Library_General_Settings>
     <Package_File_Name>TLC_Geometry</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\distributions</Library_Output_Folder>
@@ -34,7 +34,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
       <Copyright>Copyright (c) 2026 Andrea Cadei</Copyright>
       <Packager>Andrea Cadei (andcadev)</Packager>
       <URL>https://thelabviewcorner.com/</URL>
-      <Release_Notes>Remove unnecessary items</Release_Notes>
+      <Release_Notes>First release</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -50,20 +50,20 @@ It is designed to simplify common tasks such as positioning, aligning, centering
       <Custom_Probes>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\_probes\TLC\Geometry</Path>
+        <Path>&lt;vi.lib&gt;\_probes</Path>
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\errors\TLC\Geometry</Path>
+        <Path>&lt;project&gt;\errors</Path>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;help&gt;\TLC\Geometry</Path>
+        <Path>&lt;help&gt;</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\templates\TLC\Geometry</Path>
+        <Path>&lt;application&gt;\templates</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -95,12 +95,30 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Bin3</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;application&gt;\examples\exbins</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Bin3/tlc_geometry.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -110,14 +128,28 @@ It is designed to simplify common tasks such as positioning, aligning, centering
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__tlc__</Namespace>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>Bin3</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
         <Path>TLC_Geometry.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Examples</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Examples/bin3</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Bin3</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
@@ -180,6 +212,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>
+_____________________________________
 {product_name} {version_number}
 {copyright}</Text_to_Add>
     </VI_Docs>
@@ -219,7 +252,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Path>..\source\TLC_Geometry</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3ACF09496519C78A523CFAB42FC16D84</GUID>
+      <GUID>BD15D8EC8065475687D474A0B7F1BE2E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -534,7 +567,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Path>..\source\Misc\getCenter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>006224E14E0A24FAC00D1B22E2D263C1</GUID>
+      <GUID>DA55E46F1F6A01B8D2B0DA31030C4CB6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
