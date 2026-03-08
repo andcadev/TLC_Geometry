@@ -49,6 +49,11 @@ Typical usage:
 2. Call the desired geometry helper VI
 3. Continue execution
 
+## Source Code
+
+The full source code for this package is available on GitHub:
+https://github.com/andcadev/TLC_Geometry
+
 ## License
 
 This project is licensed under the MIT License.
