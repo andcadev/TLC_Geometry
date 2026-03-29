@@ -62,7 +62,7 @@ See the `LICENSE` file for details.
 ## Author
 
 **Andrea Cadei**  
-Creator of *The LabVIEW Corner*
+Creator of [*The LabVIEW Corner*](https://thelabviewcorner.com)
 
 GitHub: https://github.com/andcadev  
 Website: https://thelabviewcorner.com  
