@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-05-24 10:07:49" Creator="andre" Comments="" ID="96005f11b1691ed5ea7190fed6a03be3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-05-26 19:27:40" Creator="andre" Comments="" ID="139118a1aacfb69db042eb9f2dcbeb4a">
   <Library_General_Settings>
     <Package_File_Name>TLC_Geometry</Package_File_Name>
     <Library_Version>1.0.0.18</Library_Version>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>tlc_palette &gt;=1.0.0.4</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -38,7 +40,7 @@ https://github.com/andcadev/TLC_Geometry</Description>
       <Copyright>Copyright (c) 2026 Andrea Cadei</Copyright>
       <Packager>Andrea Cadei (andcadev)</Packager>
       <URL>https://thelabviewcorner.com/</URL>
-      <Release_Notes>First release</Release_Notes>
+      <Release_Notes>Added TLC_Palette dependency</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -536,7 +538,7 @@ _____________________________________
         <Path>..\source\Misc\getCenter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1781059AC5D59309432B5603EDBA95A</GUID>
+      <GUID>61717E81D5546B998534BB1803AA58D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

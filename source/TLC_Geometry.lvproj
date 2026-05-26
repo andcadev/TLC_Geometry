@@ -13,69 +13,153 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AlignBatch" Type="Folder">
-			<Item Name="alignBottom.vi" Type="VI" URL="../AlignBatch/alignBottom.vi"/>
-			<Item Name="alignHorizontalCenters.vi" Type="VI" URL="../AlignBatch/alignHorizontalCenters.vi"/>
-			<Item Name="alignLeft.vi" Type="VI" URL="../AlignBatch/alignLeft.vi"/>
-			<Item Name="alignRight.vi" Type="VI" URL="../AlignBatch/alignRight.vi"/>
-			<Item Name="alignTop.vi" Type="VI" URL="../AlignBatch/alignTop.vi"/>
-			<Item Name="alignVerticalCenters.vi" Type="VI" URL="../AlignBatch/alignVerticalCenters.vi"/>
+			<Item Name="alignBottom.vi" Type="VI" URL="../AlignBatch/alignBottom.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignHorizontalCenters.vi" Type="VI" URL="../AlignBatch/alignHorizontalCenters.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignLeft.vi" Type="VI" URL="../AlignBatch/alignLeft.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignRight.vi" Type="VI" URL="../AlignBatch/alignRight.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignTop.vi" Type="VI" URL="../AlignBatch/alignTop.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignVerticalCenters.vi" Type="VI" URL="../AlignBatch/alignVerticalCenters.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="AlignRelatively" Type="Folder">
-			<Item Name="alignBottomWith.vi" Type="VI" URL="../AlignRelatively/alignBottomWith.vi"/>
-			<Item Name="alignHorizontalCentersWith.vi" Type="VI" URL="../AlignRelatively/alignHorizontalCentersWith.vi"/>
-			<Item Name="alignLeftWith.vi" Type="VI" URL="../AlignRelatively/alignLeftWith.vi"/>
-			<Item Name="alignRightWith.vi" Type="VI" URL="../AlignRelatively/alignRightWith.vi"/>
-			<Item Name="alignTopWith.vi" Type="VI" URL="../AlignRelatively/alignTopWith.vi"/>
-			<Item Name="alignVerticalCentersWith.vi" Type="VI" URL="../AlignRelatively/alignVerticalCentersWith.vi"/>
+			<Item Name="alignBottomWith.vi" Type="VI" URL="../AlignRelatively/alignBottomWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignHorizontalCentersWith.vi" Type="VI" URL="../AlignRelatively/alignHorizontalCentersWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignLeftWith.vi" Type="VI" URL="../AlignRelatively/alignLeftWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignRightWith.vi" Type="VI" URL="../AlignRelatively/alignRightWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignTopWith.vi" Type="VI" URL="../AlignRelatively/alignTopWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="alignVerticalCentersWith.vi" Type="VI" URL="../AlignRelatively/alignVerticalCentersWith.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="PlaceRelatively" Type="Folder">
-			<Item Name="placeAbove.vi" Type="VI" URL="../PlaceRelatively/placeAbove.vi"/>
-			<Item Name="placeBottom.vi" Type="VI" URL="../PlaceRelatively/placeBottom.vi"/>
-			<Item Name="placeLeftOf.vi" Type="VI" URL="../PlaceRelatively/placeLeftOf.vi"/>
-			<Item Name="placeRightOf.vi" Type="VI" URL="../PlaceRelatively/placeRightOf.vi"/>
-			<Item Name="stackHorizontally.vi" Type="VI" URL="../PlaceRelatively/stackHorizontally.vi"/>
-			<Item Name="stackVertically.vi" Type="VI" URL="../PlaceRelatively/stackVertically.vi"/>
+			<Item Name="placeAbove.vi" Type="VI" URL="../PlaceRelatively/placeAbove.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="placeBottom.vi" Type="VI" URL="../PlaceRelatively/placeBottom.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="placeLeftOf.vi" Type="VI" URL="../PlaceRelatively/placeLeftOf.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="placeRightOf.vi" Type="VI" URL="../PlaceRelatively/placeRightOf.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="stackHorizontally.vi" Type="VI" URL="../PlaceRelatively/stackHorizontally.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="stackVertically.vi" Type="VI" URL="../PlaceRelatively/stackVertically.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="distributeHorizontalCenters.vi" Type="VI" URL="../PlaceRelatively/distributeHorizontalCenters.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Misc" Type="Folder">
-			<Item Name="getAggregateBounds.vi" Type="VI" URL="../Misc/getAggregateBounds.vi"/>
-			<Item Name="getBoundsRect.vi" Type="VI" URL="../Misc/getBoundsRect.vi"/>
-			<Item Name="getCenter.vi" Type="VI" URL="../Misc/getCenter.vi"/>
-			<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_end.vi"/>
-			<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_start.vi"/>
-			<Item Name="setCaption&amp;LabelVisibility.vi" Type="VI" URL="../Misc/setCaption&amp;LabelVisibility.vi"/>
-			<Item Name="hideCaption&amp;Label.vi" Type="VI" URL="../Misc/hideCaption&amp;Label.vi"/>
+			<Item Name="getAggregateBounds.vi" Type="VI" URL="../Misc/getAggregateBounds.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="getBoundsRect.vi" Type="VI" URL="../Misc/getBoundsRect.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="getCenter.vi" Type="VI" URL="../Misc/getCenter.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="processUseControlBodyOnlyFlag_end.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_end.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="processUseControlBodyOnlyFlag_start.vi" Type="VI" URL="../Misc/processUseControlBodyOnlyFlag_start.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="setCaption&amp;LabelVisibility.vi" Type="VI" URL="../Misc/setCaption&amp;LabelVisibility.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="hideCaption&amp;Label.vi" Type="VI" URL="../Misc/hideCaption&amp;Label.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Ctrls" Type="Folder">
-			<Item Name="alignment.ctl" Type="VI" URL="../Ctrls/alignment.ctl"/>
+			<Item Name="alignment.ctl" Type="VI" URL="../Ctrls/alignment.ctl">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="example_relativeAlignment.vi" Type="VI" URL="../Examples/example_relativeAlignment.vi"/>
-			<Item Name="example_batchAlignment.vi" Type="VI" URL="../Examples/example_batchAlignment.vi"/>
-			<Item Name="example_relativePlacement.vi" Type="VI" URL="../Examples/example_relativePlacement.vi"/>
-			<Item Name="example_stack.vi" Type="VI" URL="../Examples/example_stack.vi"/>
+			<Item Name="example_relativeAlignment.vi" Type="VI" URL="../Examples/example_relativeAlignment.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="example_batchAlignment.vi" Type="VI" URL="../Examples/example_batchAlignment.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="example_relativePlacement.vi" Type="VI" URL="../Examples/example_relativePlacement.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="example_stack.vi" Type="VI" URL="../Examples/example_stack.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="AlignmentTests.lvclass" Type="LVClass" URL="../../tests/AlignmentTests/AlignmentTests.lvclass"/>
 			<Item Name="RelativeAlignmentTests.lvclass" Type="LVClass" URL="../../tests/RelativeAlignmentTests/RelativeAlignmentTests.lvclass"/>
 			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 			<Item Name="StackTests.lvclass" Type="LVClass" URL="../../tests/StackTests/StackTests.lvclass"/>
+			<Item Name="DistributeCenters.lvclass" Type="LVClass" URL="../../tests/DistributeCenters/DistributeCenters.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Test Case.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Case.lvclass"/>
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
