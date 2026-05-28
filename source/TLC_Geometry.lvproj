@@ -71,6 +71,9 @@
 			<Item Name="stackVertically.vi" Type="VI" URL="../PlaceRelatively/stackVertically.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="distributeVerticalCenters.vi" Type="VI" URL="../PlaceRelatively/distributeVerticalCenters.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 			<Item Name="distributeHorizontalCenters.vi" Type="VI" URL="../PlaceRelatively/distributeHorizontalCenters.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
@@ -122,7 +125,7 @@
 			<Item Name="RelativeAlignmentTests.lvclass" Type="LVClass" URL="../../tests/RelativeAlignmentTests/RelativeAlignmentTests.lvclass"/>
 			<Item Name="RelativePlacingTests.lvclass" Type="LVClass" URL="../../tests/RelativePlacingTests/RelativePlacingTests.lvclass"/>
 			<Item Name="StackTests.lvclass" Type="LVClass" URL="../../tests/StackTests/StackTests.lvclass"/>
-			<Item Name="DistributeCenters.lvclass" Type="LVClass" URL="../../tests/DistributeCenters/DistributeCenters.lvclass"/>
+			<Item Name="DistributeCentersTests.lvclass" Type="LVClass" URL="../../tests/DistributeCentersTests/DistributeCentersTests.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
