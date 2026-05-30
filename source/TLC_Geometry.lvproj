@@ -107,16 +107,16 @@
 			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="example_relativeAlignment.vi" Type="VI" URL="../Examples/example_relativeAlignment.vi">
+			<Item Name="TLC Geometry - Relative Alignment.vi" Type="VI" URL="../Examples/TLC Geometry - Relative Alignment.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
-			<Item Name="example_batchAlignment.vi" Type="VI" URL="../Examples/example_batchAlignment.vi">
+			<Item Name="TLC Geometry - Batch Alignment.vi" Type="VI" URL="../Examples/TLC Geometry - Batch Alignment.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
-			<Item Name="example_relativePlacement.vi" Type="VI" URL="../Examples/example_relativePlacement.vi">
+			<Item Name="TLC Geometry - Relative Placement.vi" Type="VI" URL="../Examples/TLC Geometry - Relative Placement.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
-			<Item Name="example_stack.vi" Type="VI" URL="../Examples/example_stack.vi">
+			<Item Name="TLC Geometry - Stack.vi" Type="VI" URL="../Examples/TLC Geometry - Stack.vi">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
