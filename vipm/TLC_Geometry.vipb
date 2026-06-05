@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-05-30 11:42:29" Creator="andre" Comments="" ID="f8206dabd149f5e02acc9c1a980a52d5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-06-05 21:20:53" Creator="andre" Comments="" ID="390d52998a68eaef630e3ee870b1db21">
   <Library_General_Settings>
     <Package_File_Name>TLC_Geometry</Package_File_Name>
-    <Library_Version>1.0.0.27</Library_Version>
+    <Library_Version>1.0.0.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\distributions</Library_Output_Folder>
@@ -40,9 +40,7 @@ https://github.com/andcadev/TLC_Geometry</Description>
       <Copyright>Copyright (c) 2026 Andrea Cadei</Copyright>
       <Packager>Andrea Cadei (andcadev)</Packager>
       <URL>https://thelabviewcorner.com/</URL>
-      <Release_Notes>Added new VIs: Distribute horizontal and vertical centers.
-Added TLC_Palette dependency.
-</Release_Notes>
+      <Release_Notes>Fixed: The suffix used for most items made them difficult to read.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -137,7 +135,7 @@ Added TLC_Palette dependency.
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>__tlc_g</Namespace>
+        <Namespace>__tlc_g_</Namespace>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>Bin3</Path>
@@ -573,7 +571,7 @@ _____________________________________
         <Path>..\source\PlaceRelatively\distributeVerticalCenters.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A32EFE2541CB6BD2D8B7E5049A5805E3</GUID>
+      <GUID>D0B8F5F6484405CF2B3C12799D901B9F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
